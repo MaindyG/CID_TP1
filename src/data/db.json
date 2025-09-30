@@ -1,0 +1,306 @@
+{
+    "users": [
+        {
+            "id": "AOS001",
+            "emil": "aosw2@gmail.com",
+            "password": "aos123",
+            "role": "admin"
+        },
+        {
+            "id": "AOS004",
+            "emil": "aoswaq@gmail.com",
+            "password": "aos123",
+            "role": "user"
+        }
+    ],
+    "medias": [
+        {
+            "id": "AI6681",
+            "title": "Gold of Rome (L'oro di Roma)",
+            "genre": "Drama",
+            "year": 1988,
+            "rating": 3,
+            "duration": 120,
+            "watched": false
+        },
+        {
+            "id": "KL7531",
+            "title": "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+            "genre": "Documentary",
+            "year": 2003,
+            "rating": 1,
+            "duration": 67,
+            "watched": true
+        },
+        {
+            "id": "TG5404",
+            "title": "Ivan Vasilievich: Back to the Future (Ivan Vasilievich menyaet professiyu)",
+            "genre": "Adventure|Comedy",
+            "year": 1997,
+            "rating": 2,
+            "duration": 44,
+            "watched": true
+        },
+        {
+            "id": "IB5603",
+            "title": "Wanted",
+            "genre": "Action|Thriller",
+            "year": 2013,
+            "rating": 1,
+            "duration": 47,
+            "watched": true
+        },
+        {
+            "id": "BA7341",
+            "title": "Sword of Desperation (Hisshiken torisashi)",
+            "genre": "Action|Drama",
+            "year": 2007,
+            "rating": 1,
+            "duration": 51,
+            "watched": true
+        },
+        {
+            "id": "DL5422",
+            "title": "Gerry",
+            "genre": "Adventure|Drama",
+            "year": 2012,
+            "rating": 5,
+            "duration": 85,
+            "watched": false
+        },
+        {
+            "id": "CX1637",
+            "title": "Ghost of Frankenstein, The",
+            "genre": "Horror",
+            "year": 2000,
+            "rating": 5,
+            "duration": 87,
+            "watched": true
+        },
+        {
+            "id": "AC8255",
+            "title": "Anne of the Thousand Days",
+            "genre": "Drama",
+            "year": 2007,
+            "rating": 4,
+            "duration": 79,
+            "watched": true
+        },
+        {
+            "id": "SQ3769",
+            "title": "To End All Wars",
+            "genre": "Action|Drama|War",
+            "year": 1983,
+            "rating": 2,
+            "duration": 114,
+            "watched": false
+        },
+        {
+            "id": "EK7539",
+            "title": "Falling in Love",
+            "genre": "Drama|Romance",
+            "year": 2005,
+            "rating": 5,
+            "duration": 32,
+            "watched": true
+        },
+        {
+            "id": "AI2923",
+            "title": "Snake Eyes",
+            "genre": "Action|Crime|Mystery|Thriller",
+            "year": 2003,
+            "rating": 2,
+            "status": "En_cours",
+            "seasons": []
+        },
+        {
+            "id": "AZ4478",
+            "title": "Insidious: Chapter 2",
+            "genre": "Horror|Thriller",
+            "year": 2005,
+            "rating": 3,
+            "status": "Terminee",
+            "seasons": []
+        },
+        {
+            "id": "SA2360",
+            "title": "Henry IV, Part I (First Part of King Henry the Fourth, with the Life and Death of Henry Surnamed Hotspur, The)",
+            "genre": "Drama",
+            "year": 1966,
+            "rating": 1,
+            "status": "En_cours",
+            "seasons": []
+        },
+        {
+            "id": "AA5573",
+            "title": "Dead Poets Society",
+            "genre": "Drama",
+            "year": 2007,
+            "rating": 4,
+            "status": "Terminee",
+            "seasons": []
+        },
+        {
+            "id": "AZ9571",
+            "title": "Shaggy Dog, The",
+            "genre": "Adventure|Children|Comedy|Fantasy",
+            "year": 2006,
+            "rating": 2,
+            "status": "Terminee",
+            "seasons": []
+        },
+        {
+            "id": "KL1655",
+            "title": "Puerta de Hierro, el exilio de Perón",
+            "genre": "Drama",
+            "year": 2001,
+            "rating": 5,
+            "status": "En_cours",
+            "seasons": []
+        },
+        {
+            "id": "SA7016",
+            "title": "Winchester '73",
+            "genre": "Western",
+            "year": 2011,
+            "rating": 4,
+            "status": "Terminee",
+            "seasons": []
+        },
+        {
+            "id": "SQ4586",
+            "title": "Two Girls and a Sailor",
+            "genre": "Comedy|Musical|Romance",
+            "year": 2008,
+            "rating": 1,
+            "status": "En_cours",
+            "seasons": []
+        },
+        {
+            "id": "SK4004",
+            "title": "Traffic Affairs (Mitfahrer)",
+            "genre": "Drama",
+            "year": 2005,
+            "rating": 4,
+            "status": "En_cours",
+            "seasons": []
+        },
+        {
+            "id": "AV9242",
+            "title": "Family Business",
+            "genre": "Comedy",
+            "year": 2006,
+            "rating": 1,
+            "status": "Terminee",
+            "seasons": []
+        },
+        {
+            "id": "9255",
+            "title": "The End",
+            "year": 2020,
+            "rating": 3,
+            "seasons": []
+        },
+        {
+            "id": "6464",
+            "title": "The HTTP",
+            "genre": "Drama",
+            "year": 2020,
+            "rating": 3,
+            "duration": 100,
+            "watched": true,
+            "seasons": []
+        },
+        {
+            "id": "3069",
+            "title": "HTTPs",
+            "genre": "Drama",
+            "year": 2020,
+            "rating": 3,
+            "status": "En_cours",
+            "seasons": []
+        },
+        {
+            "id": "6212",
+            "title": "Les HTTPs",
+            "genre": "Drama",
+            "year": 2020,
+            "rating": 3,
+            "status": "En_cours",
+            "seasons": [
+                {
+                    "id": "7970",
+                    "seasonNumber": 2,
+                    "releaseDate": "2022-02-02",
+                    "episodes": []
+                }
+            ]
+        },
+        {
+            "id": "1111",
+            "title": "KIN",
+            "genre": "Horror",
+            "year": 2022,
+            "rating": 1,
+            "status": "Terminee",
+            "seasons": [
+                {
+                    "id": "8835",
+                    "seasonNumber": 2,
+                    "releaseDate": "2022-02-02",
+                    "episodes": [
+                        {
+                            "id": "5802",
+                            "title": "Pilot",
+                            "duration": 32,
+                            "episodeNumber": 1,
+                            "watched": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9647",
+            "title": "TheLog",
+            "genre": "Drama",
+            "year": 2020,
+            "rating": 3,
+            "duration": 100,
+            "watched": true
+        },
+        {
+            "id": "8128",
+            "title": "Let O",
+            "genre": "Comedy",
+            "year": 2020,
+            "rating": 3,
+            "duration": 100,
+            "watched": false
+        },
+        {
+            "id": "300",
+            "title": "LOL",
+            "genre": "Comedy",
+            "year": 2020,
+            "rating": 3,
+            "status": "En_cours",
+            "seasons": [
+                {
+                    "id": "5893",
+                    "seasonNumber": 2,
+                    "releaseDate": "2022-02-02",
+                    "episodes": [
+                        {
+                            "id": "9297",
+                            "title": "Pilot",
+                            "duration": 32,
+                            "episodeNumber": 1,
+                            "watched": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
