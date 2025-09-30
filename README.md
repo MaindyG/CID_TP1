@@ -28,17 +28,17 @@ npm run dev
 
 ### Routes Testées
 
-#### Retourner tout les médias
+#### 1 - Retourner tout les médias
 ```
 GET http://localhost:3000/api/medias
 ```
 
-#### Retourne les medias d'une annee specifique
+#### 2 - Retourne les medias d'une annee specifique
 ```
 GET http://localhost:3000/api/medias?year=2020
 ```
 
-#### Ajouter un film 
+#### 3 - Ajouter un film 
 ```
 POST http://localhost:3000/api/medias/films
 ```
@@ -55,7 +55,7 @@ POST http://localhost:3000/api/medias/films
 }
 ```
 
-#### (Retourne une erreur) Ajouter un film sans titre 
+#### 4 - (Retourne une erreur) Ajouter un film sans titre 
 ```
 POST http://localhost:3000/api/medias/films
 ```
@@ -71,7 +71,7 @@ POST http://localhost:3000/api/medias/films
 }
 ```
 
-#### (Retourne une erreur) Ajouter un film en etant user 
+#### 5 - (Retourne une erreur) Ajouter un film en etant user 
 ```
 POST http://localhost:3000/api/medias/films
 ```
@@ -105,7 +105,7 @@ POST http://localhost:3000/api/medias/films
 }
 ```
 
-#### Ajouter une serie 
+####6 -  Ajouter une serie 
 ```
 POST http://localhost:3000/api/medias/series
 ```
@@ -121,7 +121,7 @@ POST http://localhost:3000/api/medias/series
 }
 ```
 
-#### Ajouter une saison dans une serie
+#### 7 - Ajouter une saison dans une serie
 ```
 POST http://localhost:3000/api/medias/series/seasons 
 ```
@@ -135,7 +135,7 @@ POST http://localhost:3000/api/medias/series/seasons
 }
 ```
 
-#### Ajouter un episode a une saison
+#### 8 - Ajouter un episode a une saison
 ```
 POST http://localhost:3000/api/episodes
 ```
@@ -150,7 +150,7 @@ POST http://localhost:3000/api/episodes
 }
 ```
 
-#### Retourne la dernière action enregistrée
+#### 9 - Retourne la dernière action enregistrée
 ```
 GET http://localhost:3000/api/logs
 ```
