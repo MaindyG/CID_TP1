@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "14ea94be-fe97-4b4b-aba2-eec320834e0c",
+		"name": "TP1OG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32954933"
+	},
+	"item": [
+		{
+			"name": "GET_AllMedias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/medias",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"medias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_AllMediasFiltered",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/medias?year=2020",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"medias"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_AddMovie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Let O\",\r\n    \"genre\": \"Comedy\",\r\n    \"year\": 2020,\r\n    \"rating\":3,\r\n    \"duration\":100,\r\n    \"watched\":false,\r\n    \"role\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/medias/films",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"medias",
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_AddSeries",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"LOL\",\r\n    \"genre\": \"Comedy\",\r\n    \"year\": 2020,\r\n    \"rating\":3,\r\n    \"status\":\"En_cours\",\r\n    \"role\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/medias/series",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"medias",
+						"series"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_AddMovieNoTitle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"genre\": \"Comedy\",\r\n    \"year\": 2020,\r\n    \"rating\":3,\r\n    \"duration\":100,\r\n    \"watched\":false,\r\n    \"role\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/medias/films",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"medias",
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_AddMovieWrongChar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"A@\",\r\n    \"genre\": \"Comedy\",\r\n    \"year\": 2020,\r\n    \"rating\":3,\r\n    \"duration\":100,\r\n    \"watched\":false,\r\n    \"role\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/medias/films",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"medias",
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_AddMovieByUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"Okay\",\r\n    \"genre\": \"Comedy\",\r\n    \"year\": 2020,\r\n    \"rating\":3,\r\n    \"duration\":100,\r\n    \"watched\":false,\r\n    \"role\":\"user\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/medias/films",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"medias",
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_AddSeason",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"300\",\r\n    \"seasonNumber\" : 2,\r\n    \"releaseDate\":\"2022-02-02\",\r\n    \"role\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/series/seasons",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"series",
+						"seasons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_AddEpisode",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"serieId\":\"300\", \r\n    \"seasonId\": \"5893\",\r\n    \"title\":\"Pilot\",\r\n    \"duration\" : 32,\r\n    \"episodeNumber\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/episodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"episodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Logs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/logs",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"logs"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
