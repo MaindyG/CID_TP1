@@ -26,19 +26,18 @@ npm run dev
 ## Routes POSTMAN implementées
 > ⚠️ La route PATCH /episodes/:id n'a pas été implementé donc le test PATCH /episodes/:id Valide Mise à jour de l'état watched n'a pas été fait  
 
-### Routes Testées
 
-#### 1 - Retourner tout les médias
+### 1 - Retourner tout les médias
 ```
 GET http://localhost:3000/api/medias
 ```
 
-#### 2 - Retourne les medias d'une annee specifique
+### 2 - Retourne les medias d'une annee specifique
 ```
 GET http://localhost:3000/api/medias?year=2020
 ```
 
-#### 3 - Ajouter un film 
+### 3 - Ajouter un film 
 ```
 POST http://localhost:3000/api/medias/films
 ```
@@ -55,7 +54,7 @@ POST http://localhost:3000/api/medias/films
 }
 ```
 
-#### 4 - (Retourne une erreur) Ajouter un film sans titre 
+### 4 - (Retourne une erreur) Ajouter un film sans titre 
 ```
 POST http://localhost:3000/api/medias/films
 ```
@@ -71,7 +70,7 @@ POST http://localhost:3000/api/medias/films
 }
 ```
 
-#### 5 - (Retourne une erreur) Ajouter un film en etant user 
+### 5 - (Retourne une erreur) Ajouter un film en etant user 
 ```
 POST http://localhost:3000/api/medias/films
 ```
@@ -88,7 +87,7 @@ POST http://localhost:3000/api/medias/films
 }
 ```
 
-#### (Retourne une erreur) Ajouter un film avec un titre qui possède un character invalide
+### 6 - (Retourne une erreur) Ajouter un film avec un titre qui possède un character invalide
 ```
 POST http://localhost:3000/api/medias/films
 ```
@@ -105,7 +104,7 @@ POST http://localhost:3000/api/medias/films
 }
 ```
 
-####6 -  Ajouter une serie 
+#### 7 -  Ajouter une serie 
 ```
 POST http://localhost:3000/api/medias/series
 ```
@@ -121,7 +120,7 @@ POST http://localhost:3000/api/medias/series
 }
 ```
 
-#### 7 - Ajouter une saison dans une serie
+### 8 - Ajouter une saison dans une serie
 ```
 POST http://localhost:3000/api/medias/series/seasons 
 ```
@@ -135,7 +134,7 @@ POST http://localhost:3000/api/medias/series/seasons
 }
 ```
 
-#### 8 - Ajouter un episode a une saison
+### 9 - Ajouter un episode a une saison
 ```
 POST http://localhost:3000/api/episodes
 ```
@@ -150,7 +149,7 @@ POST http://localhost:3000/api/episodes
 }
 ```
 
-#### 9 - Retourne la dernière action enregistrée
+### 10 - Retourne la dernière action enregistrée
 ```
 GET http://localhost:3000/api/logs
 ```
