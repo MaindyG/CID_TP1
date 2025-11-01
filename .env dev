@@ -1,0 +1,3 @@
+MONGO_URI=mongodb://localhost:27017/cid_tp2_dev
+JWT_SECRET=replace-me
+NODE_ENV=development

@@ -1,0 +1,9 @@
+{
+    "app": {
+        "name": "TP2 - Suivi de médias"
+    },
+    "db":{
+        "uri":"mongodb://localhost:27017/media_test"
+    }
+    
+}

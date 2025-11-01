@@ -1,0 +1,19 @@
+{
+    "app": {
+        "name": "TP2 - Suivi de médias",
+        "apiBasePath": "/api"
+    },
+    "server": {
+        "http": {
+            "enabled": true,
+            "port": 3000
+        },
+        "https": {
+            "enabled": false
+        }
+    },
+    "db":{
+        "uri":"mongodb://localhost:27017/cid_tp2_dev"
+    }
+    
+}

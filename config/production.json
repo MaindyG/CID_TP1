@@ -1,0 +1,21 @@
+{
+    "app": {
+        "name": "TP2 - Suivi de médias",
+        "apiBasePath": "/api"
+    },
+    "server": {
+        "http": {
+            "enabled": true,
+            "port": 3000
+        },
+        "https": {
+            "enabled": false
+        }
+    },
+    "security": {
+                "jwt": {
+                    "secret": "JWT_SECRET"
+                }
+            }
+    
+}

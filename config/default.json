@@ -1,0 +1,34 @@
+{
+
+    "app": {
+        "name": "TP2 - Suivi de médias",
+        "version": "2.0.0",
+        "apiBasePath": "/api"
+    },
+    "server": {
+        "trustProxy": false,
+        "http": {
+            "enabled": true,
+            "port": 3000
+        },
+        "https": {
+            "enabled": false,
+            "port": 3443,
+            "redirectAllHttpToHttps": false
+        }
+    },
+    "security": {
+        "jwt": {
+            "secret":"dev-secret",
+            "expiresIn":"1h"
+        },
+        "cors": {
+            "origins":["https://localhost:4200"]
+        },
+        "rateLimit": {
+            "windowMs": 600000,
+            "max": 50
+        }
+    }
+
+}

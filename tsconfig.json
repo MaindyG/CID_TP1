@@ -5,13 +5,15 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/*"
-  ],
+, "test-config.ts", "src/docs"  ],
   "exclude": [
     "node_modules",
     "dist"
-  ] // Exclure ces répertoires
+  ] 
 }

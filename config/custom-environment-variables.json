@@ -1,0 +1,30 @@
+{
+    "server": {
+        "trustProxy": "TRUST_PROXY",
+        "http": {
+            "enabled": "HTTP_ENABLED",
+            "port": "HTTP_PORT"
+        },
+        "https": {
+            "enabled": "HTTPS_ENABLED",
+            "port": "HTTPS_PORT",
+            "redirectAllHttpToHttps": "REDIRECT_HTTP_TO_HTTPS"
+        }
+        
+    },
+            "db": {
+                "uri": "MONGO_URI"
+            },
+            "security": {
+                "jwt": {
+                    "secret": "JWT_SECRET"
+                },
+                "cors": {
+                    "origins": "CORS_ORIGINS"
+                },
+                "rateLimit": {
+                    "windowMs": "RATE_LIMIT_WINDOW_MS",
+                    "max": "RATE_LIMIT_MAX"
+                }
+            }
+        }
