@@ -4,7 +4,7 @@
 
 ### Cloner le projet 
 ```
-git clone -b TP2 https://github.com/MaindyG/CID_TP1.git
+git clone -b tp2 https://github.com/MaindyG/CID_TP1.git
 ```
 
 ### Ouvrir le dossier TP1
